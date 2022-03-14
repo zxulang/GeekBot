@@ -7,7 +7,7 @@ const FormData = require('form-data');
 class Bot {
   constructor () {
     // 企业微信机器人API地址
-    const { bot_api } = process.env;
+    const { bot_api } = c5902094-2ad5-4c44-bd78-cab4936a258b;
     if (!bot_api) {
       console.log('[!] 请先设置企业微信群机器人webhook');
       return this.exit();
